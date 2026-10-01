@@ -1,0 +1,1155 @@
+{
+  "intents": [
+    {
+      "intent": "agendar_assistencia",
+      "examples": [
+        {
+          "text": "Como agendo o reparo para minha compra?"
+        },
+        {
+          "text": "Como faço para marcar o conserto do meu produto com defeito?"
+        },
+        {
+          "text": "Como faço para marcar um horário na assistência técnica?"
+        },
+        {
+          "text": "Como solicitar um técnico da garantia para vir até aqui?"
+        },
+        {
+          "text": "Como solicito o agendamento de reparo para minha compra em casa?"
+        },
+        {
+          "text": "Gostaria de agendar a manutenção do meu equipamento."
+        },
+        {
+          "text": "Gostaria de marcar o conserto para este sábado."
+        },
+        {
+          "text": "Meu relógio esta com defeito."
+        },
+        {
+          "text": "pedido TV123457869, CPF 22233377788, tablet não liga"
+        },
+        {
+          "text": "Preciso agendar o atendimento presencial do suporte."
+        },
+        {
+          "text": "Preciso marcar a data da visita do técnico."
+        },
+        {
+          "text": "Quais as datas disponíveis para agendar a assistência?"
+        },
+        {
+          "text": "Quero agendar a avaliação do meu produto com defeito."
+        },
+        {
+          "text": "Quero agendar uma visita técnica para o meu produto."
+        },
+        {
+          "text": "Quero fazer a troca de uma peça."
+        },
+        {
+          "text": "Quero levar meu produto para à assistência técnica."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "coletar_produto",
+      "examples": [
+        {
+          "text": "A coleta de produto é gratuita?"
+        },
+        {
+          "text": "Como faço para agendar a coleta?"
+        },
+        {
+          "text": "Como gero o pedido de busca domiciliar para troca?"
+        },
+        {
+          "text": "Como sei que meu produto chegou no cd, após a coleta?"
+        },
+        {
+          "text": "Em quais cidades vocês realizam a coleta?"
+        },
+        {
+          "text": "Gostaria de agendar a busca da devolução."
+        },
+        {
+          "text": "Gostaria de saber se a coleta em casa já foi solicitada."
+        },
+        {
+          "text": "Não consigo ir até o Correios, podem coletar aqui?"
+        },
+        {
+          "text": "Preciso remarcar o dia da coleta do produto."
+        },
+        {
+          "text": "Quando a transportadora virá retirar meu pedido?"
+        },
+        {
+          "text": "Quero agendar a coleta de um produto com defeito."
+        },
+        {
+          "text": "Quero agendar a coleta do produto na minha casa."
+        },
+        {
+          "text": "Tenho que pagar alguma taxa para a coleta do meu pedido?"
+        },
+        {
+          "text": "Vocês podem retirar o produto na minha casa?"
+        },
+        {
+          "text": "Vocês realizam a coleta fora de São Paulo capital?"
+        }
+      ],
+      "description": "coleta reversa"
+    },
+    {
+      "intent": "consultar_garantia",
+      "examples": [
+        {
+          "text": "A garantia cobre quais reparos?"
+        },
+        {
+          "text": "Aonde encontro o termo de garantia do produto?"
+        },
+        {
+          "text": "Como consulto o prazo de validade da garantia do meu produto?"
+        },
+        {
+          "text": "Como faço para acionar a garantia do meu produto?"
+        },
+        {
+          "text": "Gostaria de checar a cobertura da garantia do meu equipamento."
+        },
+        {
+          "text": "Meu produto deu defeito, quero a garantia."
+        },
+        {
+          "text": "Meu produto está na garantia?"
+        },
+        {
+          "text": "Meu produto tem garantia estendida?"
+        },
+        {
+          "text": "Minha garantia ainda esta ativa?"
+        },
+        {
+          "text": "O produto parou de funcionar e esta na garantia."
+        },
+        {
+          "text": "O que a garantia do produto cobre?"
+        },
+        {
+          "text": "Posso acionar a garantia direto com a loja ou com a assistência técnica?"
+        },
+        {
+          "text": "Quais produtos tem garantia estendida?"
+        },
+        {
+          "text": "Qual o tempo de garantia do meu produto?"
+        },
+        {
+          "text": "Quero consultar a garantia do meu produto."
+        },
+        {
+          "text": "Quero saber a garantia do meu produto."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "falar_atendente",
+      "examples": [
+        {
+          "text": "Ainda preciso de ajuda com atendente humano."
+        },
+        {
+          "text": "Estou com um problema e o bot não esta ajudando."
+        },
+        {
+          "text": "Gostaria de falar com o suporte."
+        },
+        {
+          "text": "Me transfira para suporte ao cliente."
+        },
+        {
+          "text": "Me transfira para suporte humano, por favor?"
+        },
+        {
+          "text": "Não quero respostas automáticas, quero falar com atendente."
+        },
+        {
+          "text": "O bot não está ajudando, quero falar com um especialista."
+        },
+        {
+          "text": "Pode me transferir para uma pessoa?"
+        },
+        {
+          "text": "Preciso de ajuda do atendente."
+        },
+        {
+          "text": "Quero cancelar uma compra e preciso falar com atendente."
+        },
+        {
+          "text": "Quero falar com atendente humano."
+        },
+        {
+          "text": "Quero falar com especialista."
+        },
+        {
+          "text": "Tem algum atendente humano disponível?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "iniciar_saudacao",
+      "examples": [
+        {
+          "text": "Boa noite!"
+        },
+        {
+          "text": "Boa tarde!"
+        },
+        {
+          "text": "Boa tarde, tudo bem?"
+        },
+        {
+          "text": "Bom dia!"
+        },
+        {
+          "text": "Como vai?"
+        },
+        {
+          "text": "E aí?"
+        },
+        {
+          "text": "Oii."
+        },
+        {
+          "text": "Oi, tudo bem?"
+        },
+        {
+          "text": "Olá, assistente."
+        },
+        {
+          "text": "Olá, bom dia."
+        },
+        {
+          "text": "Olá, preciso de informações."
+        },
+        {
+          "text": "Olá, tudo bem?"
+        },
+        {
+          "text": "Tudo bem?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "rastrear_produto",
+      "examples": [
+        {
+          "text": "Aonde esta meu pacote?"
+        },
+        {
+          "text": "Aonde esta minha encomenda?"
+        },
+        {
+          "text": "Aonde eu acho o link de status do meu produto?"
+        },
+        {
+          "text": "Aonde vejo o status do meu pedido?"
+        },
+        {
+          "text": "Cadê meu pedido?"
+        },
+        {
+          "text": "Como rastreio meu pedido?"
+        },
+        {
+          "text": "Fiz uma compra mas ainda não recebi."
+        },
+        {
+          "text": "Meu pedido ainda não chegou."
+        },
+        {
+          "text": "Minha compra não foi entregue."
+        },
+        {
+          "text": "Minha encomenda já saiu para entrega?"
+        },
+        {
+          "text": "Pode me ajudar com a entrega do meu produto?"
+        },
+        {
+          "text": "Pode me enviar o meu código de rastreio?"
+        },
+        {
+          "text": "Quero saber a localização do meu produto."
+        },
+        {
+          "text": "Quero saber aonde esta meu produto."
+        },
+        {
+          "text": "Quero verificar a entrega da minha compra."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "trocar_produto",
+      "examples": [
+        {
+          "text": "Como faço a troca de uma compra?"
+        },
+        {
+          "text": "Como realizo uma troca?"
+        },
+        {
+          "text": "Como recebo o código de postagem do meu produto?"
+        },
+        {
+          "text": "Gostaria de trocar meu produto por outro."
+        },
+        {
+          "text": "Me enviaram o produto errado."
+        },
+        {
+          "text": "Meu pacote veio danificado."
+        },
+        {
+          "text": "Meu pedido veio errado."
+        },
+        {
+          "text": "Não gostei do meu produto, quero trocar."
+        },
+        {
+          "text": "Posso trocar minha encomenda por outro produto?"
+        },
+        {
+          "text": "Qual a política de troca e devolução?"
+        },
+        {
+          "text": "Qual o prazo de devolução?"
+        },
+        {
+          "text": "Qual o prazo de troca?"
+        },
+        {
+          "text": "Quero devolver meu item."
+        },
+        {
+          "text": "Quero realizar a troca de um produto."
+        },
+        {
+          "text": "Quero trocar meu produto."
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "cpf",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "cpf",
+          "patterns": [
+            "\\d{3}\\.?\\d{3}\\.?\\d{3}-?\\d{2}"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "forma_de_pagamento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "boleto",
+          "synonyms": [
+            "bol",
+            "boleto bancario",
+            "fatura"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cartao_credito",
+          "synonyms": [
+            "card",
+            "cartão",
+            "crédito"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pix",
+          "synonyms": [
+            "a vista",
+            "chave pix",
+            "pixe"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "motivo_troca",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "arrependimento",
+          "synonyms": [
+            "insatisfeito",
+            "mudei de ideia",
+            "não gostei"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "defeito",
+          "synonyms": [
+            "bugado",
+            "com problema",
+            "não liga",
+            "quebrado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "produto-diferente",
+          "synonyms": [
+            "item trocado",
+            "produto errado",
+            "veio errado"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "pedido",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "pedido",
+          "patterns": [
+            "\\b[Tt][Vv]\\d{8}\\b"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "produto",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "acessórios",
+          "synonyms": [
+            "airpods",
+            "cabo",
+            "carregador",
+            "fone",
+            "fonte",
+            "headset"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "celular",
+          "synonyms": [
+            "cel",
+            "smartphone",
+            "telefone"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "relógio inteligente",
+          "synonyms": [
+            "apple watch",
+            "relógio",
+            "smartwatch"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tablet",
+          "synonyms": [
+            "ipad",
+            "prancheta digital",
+            "tab"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu sou o botVale, estou aqui para te ajudar!"
+              },
+              {
+                "text": "Olá. Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome || #iniciar_saudacao",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, não consegui entender o que você precisa. Poderia reescrever de outra forma?"
+              },
+              {
+                "text": "Ainda não compreendi a sua solicitação. Tente usar palavras mais simples ou informe o número do seu pedido."
+              },
+              {
+                "text": "Não entendi essa mensagem. Se preferir, digite 'falar com atendente' para conversar com nosso suporte."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_9_1790477374915",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para rastrear o seu pedido, por favor informe o número do pedido (exemplo: TV12345678) ou o seu CPF."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1790517645771",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1790517645777",
+      "previous_sibling": "handler_5_1790517645777"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O número do pedido informado é inválido. Por favor, digite o código no formato correto (exemplo: TV20260417)."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1790479370797",
+      "conditions": "true",
+      "event_name": "nomatch",
+      "dialog_node": "handler_10_1790537761705",
+      "previous_sibling": "handler_6_1790479370798"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1790479370797",
+      "context": {
+        "pedido": "@pedido.literal"
+      },
+      "conditions": "@pedido.literal",
+      "event_name": "input",
+      "dialog_node": "handler_1_1790479370798"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1790479456196",
+      "context": {
+        "cpf": "@cpf.literal"
+      },
+      "conditions": "@cpf.literal",
+      "event_name": "input",
+      "dialog_node": "handler_2_1790479456198"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1790459504313",
+      "context": {
+        "cpf": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_3_1790459504314"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por favor, informe o número do seu pedido."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_8_1790459457348",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1790459457350",
+      "previous_sibling": "handler_5_1790459457349"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual é o produto que precisa de assistência?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_1_1790479458685",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1790479458686",
+      "previous_sibling": "handler_6_1790479458686"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Descreva brevemente o motivo."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1790525396345",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1790525396346",
+      "previous_sibling": "handler_7_1790525396346"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1790459457348",
+      "context": {
+        "pedido": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_5_1790459457349"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Informe o seu CPF."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1790479456196",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1790479456198",
+      "previous_sibling": "handler_2_1790479456198"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1790517645771",
+      "context": {
+        "pedido": "@pedido.literal"
+      },
+      "conditions": "@pedido.literal",
+      "event_name": "input",
+      "dialog_node": "handler_5_1790517645777"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para agendar a assistência, por favor me informe o número do pedido (ex: TV12345678), o seu CPF, o produto e qual o defeito apresentado."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1790479370797",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1790479370798",
+      "previous_sibling": "handler_1_1790479370798"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1790479458685",
+      "context": {
+        "produto": "<? @produto ?>"
+      },
+      "conditions": "@produto && !#consultar_garantia",
+      "event_name": "input",
+      "dialog_node": "handler_6_1790479458686"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1790525396345",
+      "context": {
+        "motivo_troca": "@motivo_troca"
+      },
+      "conditions": "@motivo_troca",
+      "event_name": "input",
+      "dialog_node": "handler_7_1790525396346"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por favor, digite apenas com números o seu CPF."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1790459504313",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1790459504314",
+      "previous_sibling": "handler_3_1790459504314"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O código informado não está no padrão correto. Por favor, digite as letras 'TV' seguidas de 8 números (exemplo: TV12345678)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1790517645771",
+      "conditions": "anything_else",
+      "event_name": "nomatch",
+      "dialog_node": "handler_9_1790518581378",
+      "previous_sibling": "handler_10_1790517645777"
+    },
+    {
+      "type": "standard",
+      "title": "Trocar Produto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você pode solicitar a troca por arrependimento em até 7 dias corridos após o recebimento do produto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#trocar_produto",
+      "dialog_node": "node_1_1790477328411",
+      "previous_sibling": "node_2_1790206387266"
+    },
+    {
+      "type": "standard",
+      "title": "Garantia",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#consultar_garantia",
+      "digress_in": "returns",
+      "dialog_node": "node_2_1790206387266",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1790462993241"
+    },
+    {
+      "type": "standard",
+      "title": "Garantia Relógio Inteligente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O prazo de garantia para este produto é de 6 meses a partir da data da compra. Voltando ao seu agendamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1790206387266",
+      "context": {},
+      "conditions": "@produto:(relógio inteligente)",
+      "dialog_node": "node_2_1790207249433"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntar Produto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para qual produto você deseja consultar a garantia? Relógio inteligente, celular ou tablet?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1790206387266",
+      "conditions": "true",
+      "dialog_node": "node_2_1790211143131",
+      "previous_sibling": "node_4_1790210178233"
+    },
+    {
+      "type": "standard",
+      "title": "Resposta Celular e Tablet",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O prazo de garantia para celulares e tablets é de 12 meses."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1790211143131",
+      "conditions": "@produto:celular && @produto:tablet",
+      "dialog_node": "node_2_1790461345868",
+      "previous_sibling": "node_3_1790461304774"
+    },
+    {
+      "type": "standard",
+      "title": "Resposta Relógio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O prazo de garantia para o relógio inteligente é de 6 meses."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1790211143131",
+      "conditions": "@produto:(relógio inteligente)",
+      "dialog_node": "node_3_1790461304774"
+    },
+    {
+      "type": "standard",
+      "title": "Garantia Direta (Combinada)",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1790206387266"
+      },
+      "conditions": "#consultar_garantia && @produto",
+      "digress_in": "returns",
+      "dialog_node": "node_3_1790462993241",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1790484650308"
+    },
+    {
+      "type": "frame",
+      "title": "Rastrear Produto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Localizamos o seu pedido $pedido. O status atual é: Em transporte com entrega prevista em até 2 dias úteis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#rastrear_produto",
+      "dialog_node": "node_3_1790484650308",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Garantia Acessórios ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Este produto não possui garantia estendida. Voltando ao seu agendamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1790206387266",
+      "conditions": "@produto:acessórios",
+      "dialog_node": "node_4_1790210178233",
+      "previous_sibling": "node_5_1790207414817"
+    },
+    {
+      "type": "standard",
+      "title": "Resposta Acessórios",
+      "parent": "node_2_1790211143131",
+      "conditions": "@produto:acessórios",
+      "dialog_node": "node_4_1790461450741",
+      "previous_sibling": "node_2_1790461345868"
+    },
+    {
+      "type": "standard",
+      "title": "Garantia Tablet e celular",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O prazo de garantia para este produto é de 12 meses a partir da data da compra. Voltando ao seu agendamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1790206387266",
+      "conditions": "@produto:tablet || @produto:celular",
+      "dialog_node": "node_5_1790207414817",
+      "previous_sibling": "node_2_1790207249433"
+    },
+    {
+      "type": "frame",
+      "title": "Assistência Técnica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Solicitação de assistência técnica registrada com sucesso!\nResumo do Agendamento: \nPedido: $pedido\nCPF: $cpf\nProduto: $produto\nProblema: $motivo_troca\nEm breve você receberá as instruções por e-mail."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#agendar_assistencia",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1790479329928",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_6_1790459364789",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "frame",
+      "title": "Agendamento Coleta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado! A solicitação de coleta reversa para o pedido $pedido (CPF: $cpf) foi registrada com sucesso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#coletar_produto",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1790459364789",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1790477328411",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Falar com Atendente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estou transferindo o seu atendimento para um de nossos atendentes..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#falar_atendente",
+      "dialog_node": "node_9_1790477374915",
+      "previous_sibling": "node_5_1790479329928"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1790479329928",
+      "variable": "$motivo_troca",
+      "dialog_node": "slot_10_1790525396345",
+      "previous_sibling": "slot_1_1790479458685"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1790479329928",
+      "variable": "$produto",
+      "dialog_node": "slot_1_1790479458685",
+      "previous_sibling": "slot_9_1790479456196"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1790484650308",
+      "variable": "$pedido",
+      "dialog_node": "slot_2_1790517645771"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1790459364789",
+      "variable": "$pedido",
+      "dialog_node": "slot_8_1790459457348"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1790459364789",
+      "variable": "$cpf",
+      "dialog_node": "slot_9_1790459504313",
+      "previous_sibling": "slot_8_1790459457348"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1790479329928",
+      "variable": "$pedido",
+      "dialog_node": "slot_9_1790479370797"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1790479329928",
+      "variable": "$cpf",
+      "dialog_node": "slot_9_1790479456196",
+      "previous_sibling": "slot_9_1790479370797"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "asdfgh qwerty"
+    }
+  ],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "Intenções do bot de pós-venda.",
+  "name": "Vale-dialog"
+}
