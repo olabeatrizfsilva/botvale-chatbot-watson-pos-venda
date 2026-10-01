@@ -40,6 +40,17 @@ flowchart TD
     style G fill:#2ECC71,stroke:#27AE60,color:#fff
 ```
 
+## 📂 Arquivos do projeto
+
+- `README.md` → documentação e fluxograma da conversa
+- `botvale-watson-skill.json` → exportação do chatbot (skill) do IBM Watson Assistant
+
+## ▶️ Como importar o bot no Watson
+
+1. Acesse o IBM Watson Assistant.
+2. Crie um novo skill/assistente e escolha a opção **Upload** (importar).
+3. Selecione o arquivo `botvale-watson-skill.json`.
+
 ## 🛠️ Tecnologias
 
 - IBM Watson Assistant
